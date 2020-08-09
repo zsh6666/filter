@@ -1,0 +1,224 @@
+.swiper{
+    width: 375px;
+    height: 188px;
+    background-image:url("back0.jpg") ;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    margin-top:74px ;
+
+}
+.iconList{
+    width: 375px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.iconItem{
+    width: 20%;
+    height: 80px;
+
+}
+
+.iconItem>img{
+    width: 100%;
+    height: 100%;
+
+}
+
+/*banner*/
+.banner{
+    width: 375px;
+    height: 265px;
+    border-top: 8px solid rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner .lbanner{
+    width: 186px;
+    height: 265px;
+}
+.banner .lbanner>img{
+    width: 100%;
+    height: 100%;
+}
+.banner .rbanner{
+    width: 186px;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*position: relative;*/
+    /*z-index: 10;*/
+}
+.rbanner .rtbanner{
+    width: 186px;
+    height: 131px;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*z-index: 10;*/
+}
+.rbanner .rtbanner>img{
+    width: 100%;
+    height: 100%;
+}
+.rbanner .rbbanner{
+    width: 186px;
+    height: 131px;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*z-index: 10;*/
+}
+.rbanner .rbbanner>img{
+    width: 100%;
+    height: 100%;
+}
+
+/*精选部分*/
+.jx{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+.jx>.jxad{
+    width: 375px;
+    height: 230px;
+    border-top: 8px solid rgb(245, 245, 245);
+}
+.jx>.jxad>img{
+    width: 100%;
+    height: 100%;
+}
+.pdList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 375px;
+
+}
+.pdList .pdItem{
+    width: 47%;
+    height: 253px;
+    padding: 4px 5.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pdList .pdItem>img{
+    width: 100%;
+    height: auto;
+}
+
+.pdList .pdItem .title{
+    padding-top:5px ;
+    font-size: 15px;
+    color: rgba(0,0,0,.87);
+}
+.pdList .pdItem .brief{
+    font-size: 12px;
+    color: rgba(0,0,0,.54);
+}
+.pdList .pdItem .price{
+    font-size: 15px;
+    color: #ea625b;
+}
+.pdList .pdItem .buyBtn{
+    width: 105px;
+    height: 31px;
+    text-align: center;
+    line-height: 31px;
+    color: white;
+    font-size: 13px;
+    background-color: #ea625b;
+    text-decoration: none;
+}
+
+/*底部导航*/
+
+.footer{
+    width: 375px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 -2px 5px #cccccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+}
+
+.footer .fIcon{
+    width: 20%;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer .fIcon .img{
+    width: 23px;
+    height: 23px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.footer .fIcon span{
+    color: rgb(116,116,116);
+    font-size: 12px;
+}
+/*.footer .fIcon span:hover{*/
+/*    color: #ff6700;*/
+/*}*/
+.footer .fIcon:nth-child(1) .img{
+     background-image: url("home2.png");
+}
+.footer .fIcon:nth-child(2) .img{
+    background-image: url("search1.png");
+}
+.footer .fIcon:nth-child(3) .img{
+    background-image: url("qiu1.png");
+}
+.footer .fIcon:nth-child(4) .img{
+    background-image: url("buycar1.png");
+}
+.footer .fIcon:nth-child(5) .img{
+    background-image: url("user1.png");
+}
+
+/*移动端没有点击、手触摸就是点击*/
+.footer .fIcon:nth-child(1):hover .img{
+    background-image: url("home1.png");
+}
+.footer .fIcon:nth-child(2):hover .img{
+    background-image: url("search2.png");
+}
+.footer .fIcon:nth-child(3):hover .img{
+    background-image: url("qiu2.png");
+}
+.footer .fIcon:nth-child(4):hover .img{
+    background-image: url("buycar2.png");
+}
+.footer .fIcon:nth-child(5):hover .img{
+    background-image: url("user2.png");
+}
+
+.footer .fIcon:nth-child(1):hover span{
+    color: #ff6700 !important;
+}
+.footer .fIcon:nth-child(2):hover span{
+    color: #ff6700 !important;
+}
+.footer .fIcon:nth-child(3):hover span{
+    color: #ff6700 !important;
+}
+.footer .fIcon:nth-child(4):hover span{
+    color: #ff6700 !important;
+}
+.footer .fIcon:nth-child(5):hover span{
+    color: #ff6700 !important;
+}
+
